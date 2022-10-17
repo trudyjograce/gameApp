@@ -89,7 +89,7 @@ The files contain the following files:
 **Images**
 The images for cards are stored in the images folder. Replace these with your own images and make the necssary changes to the file names on the Cards.js, Game.js and Header.js pages. Images in the "readmeImg" file are for the purpose of this README doc.
 
-##Functions available in Project
+## Functions available in Project
 
 1.Overview of full game page. All cards are displayed "facedown".
 <div style="width:60px ; height:60px">
