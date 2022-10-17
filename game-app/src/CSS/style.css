@@ -1,0 +1,180 @@
+/* General Styling */
+h1{
+	font-family: 'Titan One', cursive;
+	font-size: 72px;
+  background: -webkit-linear-gradient(	#e72020,#e72020,#4de32a, #2e28e1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* NavBar */
+.navBar{
+min-height: 10vh;
+display: flex;
+font-size: 30px;
+justify-content:space-evenly;
+font-family: Tahoma;
+}
+
+.navBar img{
+	float: left;
+	border-radius: 50%;
+}
+.navBar H1{
+	float: right;
+	padding-left: 10px;
+}
+/* Help Panel */
+.help{
+	margin: auto;
+	width: 33%;background-color: aquamarine;
+	padding: 20px;
+}
+
+
+/* card game */
+.cardGame {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.cardGame header {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 8px;
+}
+.cardGame header > div {
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+}
+.cardGame footer {
+	width: 400px;
+	position: relative;
+	margin: 0 auto;
+	padding: 10px 4px;
+	margin-top: 10px;
+}
+.cardGame footer .score {
+	justify-content: center;
+	display: flex;
+}
+.cardGame footer .score div {
+	padding: 8px;
+}
+.cardGame footer .restart {
+	/* background-color: rgba(0, 255, 255, 0.354);
+	color: red; */
+	display: flex;
+	justify-content: center;
+	border-radius: 8px;
+}
+.cardGame .container {
+	background-color: goldenrod;
+	border: 1px solid #DEDEDE;
+	padding: 12px;
+	box-shadow: 0 0 4px 4px #DEDEDE;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	justify-items: center;
+	align-items: stretch;
+	gap: 1rem;
+	margin: 0 auto;
+	width: 1000px;
+	height: 1020px;
+	perspective: 100%;
+	/* max-width: 980px; */
+}
+
+/* Card Style */
+  .card {
+	width: 100%;
+	height: 80%;
+	border-radius: 2px;
+	transition: 0.3s;
+	transform-style: preserve-3d;
+	position: relative;
+	cursor: pointer;
+}
+.card img {
+	width: 95%;
+	height: 95%;
+}
+.card .card-face {
+	backface-visibility: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.card .card-face.card-back-face {
+	transform: rotateY(180deg);
+}
+.card.is-flipped {
+	transform: rotateY(180deg);
+}
+.card.is-inactive {
+	opacity: 0;
+}
+
+/*Game Progress Board */
+.gameProgress,
+.score{
+	background-color: rgba(127, 255, 212, 0.502);
+	/* border: 2px solid aqua; */
+	width: 50%;
+	margin: auto;
+	font-family: 'Titan One';
+	font-size: 25px;
+}
+
+.gameProgress li{
+	list-style: none;
+	font-family:Tahoma;
+	font-size: 20px;
+
+}
+
+
+/* EndGame PopUp */
+.popup-box {
+  position: fixed;
+  background: #0fe7fb67;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+ 
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: rgb(0, 255, 234);
+  color: black;
+  border-radius: 6px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+ 
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 33px);
+  background: #f70000;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
