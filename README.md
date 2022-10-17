@@ -15,6 +15,8 @@ title: React App README
  
  [Credits](https://github.com/trudyjograce/gameApp/tree/master#credits)
 
+
+
 ## Project Description
  This is a memory game built using React-App. It is designed to test your memory by  using visual prompts. 
 * React & Node.js
@@ -90,58 +92,65 @@ The images for cards are stored in the images folder. Replace these with your ow
 ##Functions available in Project
 
 1.Overview of full game page. All cards are displayed "facedown".
- ![landing page](https://github.com/trudyjograce/projectsHyperionDev/blob/master/readmeImg/landing.JPG)
+ ![overview](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/1-overview.JPG)
 
 
 2.As you need to match pairs, one move is defined as having opened two cards. Here card "#3" is open, so the "Moves" is reflected as "1" . Once Card #4" is opened, if it is not a match it will flip back over.
 
-![catalog page](https://github.com/trudyjograce/projectsHyperionDev/blob/master/readmeImg/catalog.JPG)
+![open card](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/2-openCard.JPG)
 
 3.If you open a matching pair, the cards will be "removed" from the table.Your current moves will continue to track untill all cards are cleared (ie. all pairs have been matched)
 
-![product page](https://github.com/trudyjograce/projectsHyperionDev/blob/master/readmeImg/productPage.JPG)
+![pair match](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/3-pairedMatch.jpg)
 
 4.Once all pairs are found a pop-up will display over the game with your "Total Moves" and your "Best Moves" (ie. the least amount of clicks it took to find all the pairs).
 
-![totals updated alert](https://github.com/trudyjograce/projectsHyperionDev/blob/master/readmeImg/totalUpdate.JPG)
+!["you win" alert](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/4-popUp.JPG)
 
 5.The pop-up has two buttons: 
 - a red "X" which closes the pop-up but does not reset the game,
+
+![quit](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/5-restartQuit.JPG )
+
 -a restart button labelled "Play Again" which will restart the game   
 
-![cart page](https://github.com/trudyjograce/projectsHyperionDev/blob/master/readmeImg/cartItems.JPG )
+![restart](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/6-quitRestart.JPG )
 
 6.-Directly below the cards the "Moves" reflects the moves for the current game. Restart will set the current moves to "0";
 -"Your Progress" saves the total moves to an array and displays the user "Total Moves" per game played.
 
-![coupon section](https://github.com/trudyjograce/projectsHyperionDev/blob/master/readmeImg/couponAdded.JPG)
+![stats](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/7-gameStats.JPG)
 
 7. The Nav Bar is fixed to the bottom, but the user can easily navigate to: 
 - "Help" section at the top of the Game;
 -"Play" - cards section, or
 - "Stats" to track their progression 
 
-![shipping section](https://github.com/trudyjograce/projectsHyperionDev/blob/master/readmeImg/shipping.JPG)
+![menu](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/8-menu.JPG)
 
 8. The selected Menu item will be "brighter" to show it is active
 
-![sucess alert](https://github.com/trudyjograce/projectsHyperionDev/blob/master/readmeImg/sucessGenerate.JPG)
+![active menu](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/9-activeMenu.jpg)
 
 9.The "Help" Section explains the rules of the game as well as instructions on how to play. It is created using an accordion to reduce space and closes the previous section when opening the next 
+
+![active menu](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/10-help.JPG)
 
 
 ## Credits
 This project includes resources from the following sources
-1. Fonts 
+
+1. Icons
+  - W3.Org - *www.w3.org*
+2. Fonts 
   - Google Fonts - *fonts.google.com*
-2. Photos
+3. Photos
   - ClipArt *www.clipartkey.com*
   - Canva *www.canva.com*
 
-3. Programs
+4. Programs
   -React - *https://nodejs.org/*
   -React-Bootstrap - *https://react-bootstrap.github.io/getting-started*
   -Bootstrap - *https://getbootstrap.com/*
   
 © [Trudy-Jo Daniels ](https://github.com/trudyjograce)
-
