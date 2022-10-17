@@ -92,7 +92,9 @@ The images for cards are stored in the images folder. Replace these with your ow
 ##Functions available in Project
 
 1.Overview of full game page. All cards are displayed "facedown".
+<div style="width:60px ; height:60px">
  ![overview](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/1-overview.JPG)
+<div>
 
 
 2.As you need to match pairs, one move is defined as having opened two cards. Here card "#3" is open, so the "Moves" is reflected as "1" . Once Card #4" is opened, if it is not a match it will flip back over.
