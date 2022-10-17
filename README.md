@@ -92,6 +92,7 @@ The images for cards are stored in the images folder. Replace these with your ow
 ## Functions available in Project
 
 1.Overview of full game page. All cards are displayed "facedown".
+
 <img src="https://github.com/trudyjograce/gameApp/blob/master/readmeImg/1-overview.JPG" alt="overview" title="overview" width="350"/>
 
 2.As you need to match pairs, one move is defined as having opened two cards. Here card "#3" is open, so the "Moves" is reflected as "1" . Once Card #4" is opened, if it is not a match it will flip back over.
@@ -103,31 +104,37 @@ The images for cards are stored in the images folder. Replace these with your ow
 <img src="https://github.com/trudyjograce/gameApp/blob/master/readmeImg/3-pairedMatch.jpg" alt="pair match" title="pair match" width="350"/>
 
 4.Once all pairs are found a pop-up will display over the game with your "Total Moves" and your "Best Moves" (ie. the least amount of clicks it took to find all the pairs).
+
 <img src="https://github.com/trudyjograce/gameApp/blob/master/readmeImg/4-popUp.JPG" alt=""you win" alert" title=""you win" alert" width="350"/>
 
 5.The pop-up has two buttons: 
-- a red "X" which closes the pop-up but does not reset the game,
+- a red "X" which closes the pop-up but does not reset the game.
+
 <img src="https://github.com/trudyjograce/gameApp/blob/master/readmeImg/5-restartQuit.JPG" alt=""quit" title=""quit" width="350"/>
 
--a restart button labelled "Play Again" which will restart the game   
+-a restart button labelled "Play Again" which will restart the game 
+ 
 <img src="https://github.com/trudyjograce/gameApp/blob/master/readmeImg/6-quitRestart.JPG" alt="restart" title=""restart" width="350"/>
 
 6.-Directly below the cards the "Moves" reflects the moves for the current game. Restart will set the current moves to "0";
 -"Your Progress" saves the total moves to an array and displays the user "Total Moves" per game played.
+
 <img src="https://github.com/trudyjograce/gameApp/blob/master/readmeImg/7-gameStats.JPG" alt="stats" title="stats" width="350"/>
 
 7. The Nav Bar is fixed to the bottom, but the user can easily navigate to: 
 - "Help" section at the top of the Game;
 -"Play" - cards section, or
 - "Stats" to track their progression 
+
 <img src="https://github.com/trudyjograce/gameApp/blob/master/readmeImg/8-menu.JPG" alt="menu" title="menu" width="350"/>
 
 8. The selected Menu item will be "brighter" to show it is active
+
 <img src="https://github.com/trudyjograce/gameApp/blob/master/readmeImg/9-activeMenu.jpg" alt="active menu" title="active menut" width="350"/>
 
 9.The "Help" Section explains the rules of the game as well as instructions on how to play. It is created using an accordion to reduce space and closes the previous section when opening the next 
-<img src="https://github.com/trudyjograce/gameApp/blob/master/readmeImg/10-help.JPG" alt="help" title="help" width="350"/>
 
+<img src="https://github.com/trudyjograce/gameApp/blob/master/readmeImg/10-help.JPG" alt="help" title="help" width="350"/>
 
 
 ## Credits
