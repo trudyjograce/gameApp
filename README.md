@@ -5,17 +5,15 @@ permalink: /readme/
 title: React App README
 ---
 ### Table of Contents
- [Project Description](https://github.com/trudyjograce/projectsHyperionDev/new/master?readme=1#project-description)
+ [Project Description](https://github.com/trudyjograce/gameApp/tree/master#project-description)
  
- [Installation Guide](https://github.com/trudyjograce/projectsHyperionDev/new/master?readme=1#instalation-guide)
+ [Installation Guide](https://github.com/trudyjograce/gameApp/tree/master#installation-guide)
  
- [Usage](https://github.com/trudyjograce/projectsHyperionDev/new/master?readme=1#usage)
- 
- [Functions available in Project](https://github.com/trudyjograce/projectsHyperionDev/new/master?readme=1#usage)
- 
- [Credits](https://github.com/trudyjograce/projectsHyperionDev/new/master?readme=1#credits)
+ [Usage](https://github.com/trudyjograce/gameApp/tree/master#usage)
 
-
+ [Functions available in Project](https://github.com/trudyjograce/gameApp/tree/master#usage)
+ 
+ [Credits](https://github.com/trudyjograce/gameApp/tree/master#credits)
 
 ## Project Description
  This is a memory game built using React-App. It is designed to test your memory by  using visual prompts. 
@@ -89,7 +87,7 @@ The files contain the following files:
 **Images**
 The images for cards are stored in the images folder. Replace these with your own images and make the necssary changes to the file names on the Cards.js, Game.js and Header.js pages. Images in the "readmeImg" file are for the purpose of this README doc.
 
-**_ Functions available in Project _**
+##Functions available in Project
 
 1.Overview of full game page. All cards are displayed "facedown".
  ![landing page](https://github.com/trudyjograce/projectsHyperionDev/blob/master/readmeImg/landing.JPG)
@@ -134,16 +132,13 @@ The images for cards are stored in the images folder. Replace these with your ow
 
 ## Credits
 This project includes resources from the following sources
-
-1. Icons
-  - W3.Org - *www.w3.org*
-2. Fonts 
+1. Fonts 
   - Google Fonts - *fonts.google.com*
-3. Photos
+2. Photos
   - ClipArt *www.clipartkey.com*
   - Canva *www.canva.com*
 
-4. Programs
+3. Programs
   -React - *https://nodejs.org/*
   -React-Bootstrap - *https://react-bootstrap.github.io/getting-started*
   -Bootstrap - *https://getbootstrap.com/*
