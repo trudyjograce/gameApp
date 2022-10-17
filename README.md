@@ -110,7 +110,7 @@ The images for cards are stored in the images folder. Replace these with your ow
 5.The pop-up has two buttons: 
 - a red "X" which closes the pop-up but does not reset the game,
 
-![quit](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/5-restartQuit.JPG )
+![quit](https://github.com/trudyjograce/gameApp/blob/master/readmeImg/5-restartQuit.jpg )
 
 -a restart button labelled "Play Again" which will restart the game   
 
