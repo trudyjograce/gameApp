@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/game-app/static/css/main.607e1298.css",
+    "main.js": "/game-app/static/js/main.a64810b5.js",
+    "static/js/496.7a83118f.chunk.js": "/game-app/static/js/496.7a83118f.chunk.js",
+    "static/media/front (1).png": "/game-app/static/media/front (1).5805eafa344f2d25e0de.png",
+    "static/media/front (9).png": "/game-app/static/media/front (9).9616656dd88a0be20684.png",
+    "static/media/front (2).png": "/game-app/static/media/front (2).597d366cd82a8dfa6974.png",
+    "static/media/front (5).png": "/game-app/static/media/front (5).2bead9dd0f8db353f406.png",
+    "static/media/front (3).png": "/game-app/static/media/front (3).99f79f7866dedce349fb.png",
+    "static/media/front (6).png": "/game-app/static/media/front (6).e16e3a39f84f31d73e9a.png",
+    "static/media/front (4).png": "/game-app/static/media/front (4).aa307a250c760f8777f2.png",
+    "static/media/front (7).png": "/game-app/static/media/front (7).060f75ed3511eaacff54.png",
+    "static/media/logo.png": "/game-app/static/media/logo.1a9db30c697d8b49b12c.png",
+    "static/media/front (8).png": "/game-app/static/media/front (8).9d7894d9dcb6ca53e2e2.png",
+    "static/media/Back.png": "/game-app/static/media/Back.0fe5243d9ebcfa870fbc.png",
+    "index.html": "/game-app/index.html",
+    "main.607e1298.css.map": "/game-app/static/css/main.607e1298.css.map",
+    "main.a64810b5.js.map": "/game-app/static/js/main.a64810b5.js.map",
+    "496.7a83118f.chunk.js.map": "/game-app/static/js/496.7a83118f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.607e1298.css",
+    "static/js/main.a64810b5.js"
+  ]
+}
